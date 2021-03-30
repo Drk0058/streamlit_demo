@@ -1,3 +1,4 @@
 import streamlit as st
 
-st.write("hello str")
+image = st.file_uploader("select image")
+st.image(image)
